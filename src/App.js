@@ -9,5 +9,7 @@ class App extends Component {
     );
   }
 }
-
+App.propTypes = {
+  message: PropTypes.string.isRequired,
+};
 export default App;
