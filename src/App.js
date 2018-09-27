@@ -4,7 +4,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-       <h1>{this.prop.message}</h1>
+      <p>{this.props.message}</p>
       </div>
     );
   }
@@ -12,4 +12,5 @@ class App extends Component {
 App.propTypes = {
   message: PropTypes.string.isRequired,
 };
+
 export default App;
